@@ -22,12 +22,14 @@ document.onkeyup = function() {
 //Comparissions
 if (userGuess===compGuess) {
     wins++;
+    left = 9;
   }
   else {
     left--;
   }
 if (left === 0) {
   losses++;
+  left = 9;
 }
 
 var html = "<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>" + "<p>Guesses Left: " + left + "</p>" + "<p>Your Guesses so Far: " + guesses + "</p>"
