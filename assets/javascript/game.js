@@ -11,15 +11,10 @@ var left = 9;
 var compGuess = options[Math.floor(Math.random() * options.length)]; 
 
 //Functions
-//Each guess will show in "guesses so far"
-//If the guesses exceed 9 attemps, the user losses and the game resets
-
 document.onkeyup = function() {
   var userGuess = String.fromCharCode(event.keyCode).
   toLowerCase();
-
-  var guesses = userGuess;
-
+  
 //Comparissions
 if (userGuess===compGuess) {
     wins++;
@@ -27,17 +22,13 @@ if (userGuess===compGuess) {
   }
   else {
     left--;
-    
   }
 if (left === 0) {
   losses++;
   left = 9;
-
 }
 
-var html = "<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>" + "<p>Guesses Left: " + left + "</p>" + "<p>Your Guesses so Far: " + guesses + "</p>"
+var html = "<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>" + "<p>Guesses Left: " + left + "</p>" + "<p>Your Guesses so Far: " + userGuess + "</p>"
 document.querySelector("#game").innerHTML = html;
 
 }
-
-//Append letters clicked to "Your Guesses so Far" & Reset game after winning & losing
