@@ -1,4 +1,4 @@
-# Psychic-Game
+# Psychic-Game Bootcamp Project
 
 1. Watch the demo. (https://www.youtube.com/watch?v=qTc45Lox97g&feature=youtu.be)
 
@@ -31,18 +31,15 @@ https://m.wikihow.com/Write-Pseudocode
 
 IMPORTANT: Whichever assignment you choose, code your game one piece at a time! Code all of your apps one piece at a time. Always code one piece at a time!
 
-
 Pseudocode your program and break the app down into tiny, manageable fragments. This will make the coding process much less frustrating and a veritable Mach number faster. Otherwise, you'll be chipping away at a giant chunk of abstraction for way too many hours.
 
 The ability to solve a large problem by treating it as a set of smaller ones is the hallmark of a strong programmer. Best start adapting this into your development routine now, to better prepare for your more complex future projects.
 
 Remember:
-1. Split the whole program into many distinct, pseudocoded problems.
+1. Split the whole program into many distinct, pseudocode problems.
 2. Focus on one of the smaller problems and solve it.
 3. Only when you solve one problem should you then move onto your next problem.
 
 When you encounter bugs (and we all do), console.log will become your best friend. Regularly check your console to make sure your app is spitting out the right values.
 
 As a more advanced—but more powerful—alternative, feel free to experiment with the Chrome DevTools Debugger (https://developers.google.com/web/tools/chrome-devtools/).
-
-# ADD TO PORTFOLIO!
